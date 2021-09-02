@@ -21,8 +21,8 @@ function compute()
     // we set content of result with text and our calculated values
     document.getElementById("result").innerHTML=
         "If you deposit " + principal + ",<br/>"
-        + "at an interest rate of " + rate + "%."
-        + "You will receive an amount of " + interest + ","
+        + "at an interest rate of " + rate + "%.<br/>"
+        + "You will receive an amount of " + interest + ",<br/>"
         + "in the year " + year;
 }
 
@@ -31,6 +31,6 @@ function updateRate()
     // when range input changes we update the numeric value
     // in the span
     var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText=rateval+"%";
 }
         
