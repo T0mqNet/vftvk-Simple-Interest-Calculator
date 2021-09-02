@@ -1,11 +1,11 @@
 body {background-color:black;font-family:arial;color:white}
 h1{color:grey;font-family:verdana}
 .maindiv {
-    background-color:white;color:black;width:400px;padding:20px;border-radius:25px;margin:auto;
+    background-color:white;color:black;width:500px;padding:20px;border-radius:25px;margin:auto;
 }
 .label {
-    width:80px
+    width:140px;display:inline-block
 }
 .yellow{
-    color: yellow
+    background-color: yellow
 }
